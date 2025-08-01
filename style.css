@@ -11,6 +11,23 @@
 }
 .card-text{
     text-align: center;
+
+}
+.icontext {
+    font-size: 30px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 @media screen  and (min-width:560px)  and (max-width:768px) {
    
