@@ -1,3 +1,14 @@
+ @font-face {
+        font-family: inter;
+        src: url(Fonts/Inter-VariableFont_opsz\,wght.ttf);
+    } 
+        
+ *{
+    font-family: inter;
+ }   
+
+
+
 .card img{
     width: 80px;
     
