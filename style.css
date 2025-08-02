@@ -40,6 +40,21 @@
     margin: auto;
     margin-bottom: 20px;
 }
+.links li a{
+    color: #ffffff96;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.inpt input{
+    background: rgba(128, 128, 128, 0.367);
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
 @media screen  and (min-width:560px)  and (max-width:768px) {
    
     .card-title{
@@ -55,3 +70,13 @@
     font-size: 14px;
 }
 } 
+@media screen and (max-width:576px){
+    .heading{
+        font-size: 35px;
+    }
+    .imgg{
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+    }
+}
