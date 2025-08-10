@@ -8,7 +8,9 @@
  }   
 
 
-
+.Clr{
+    color: rgba(77, 77, 77, 1);
+}
 .card img{
     width: 80px;
     
@@ -19,19 +21,26 @@
     justify-self: center;
     text-align: center;
     font-size: 26px;
+    color: rgba(77, 77, 77, 1);
 }
 .card-text{
     text-align: center;
+    color: rgba(77, 77, 77, 1);
 
 }
-.icontext {
-    font-size: 30px;
-    font-weight: bold;
+.reveiw1 {
+    color: rgba(24, 25, 31, 1);
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 85px;
 }
 .txt{
-    font-size: 30px;
+     font-size: 30px;
     font-weight: bold;
-    
+    color:  rgba(76, 175, 79, 1);
+     padding-left: 85px;
+    line-height: 52.5px;
+     
 }
 .heading{
     font-size: 50px;
@@ -54,8 +63,44 @@
     border-radius: 5px;
     padding-left: 10px;
 }
+.colr{
+    background: rgba(245, 247, 250);
+}
+.hero1{
+    font-size: 600;
+    color: rgba(77, 77, 77, 1);
+    padding-left: 85px;
+    line-height: 52.5px;
+    
+}
+.hero2{
+    color: rgba(76, 175, 79, 1);
+    padding-left: 85px;
+    line-height: 52.5px;
+    font-size: 600;
 
-@media screen  and (min-width:560px)  and (max-width:768px) {
+}
+.hero3{
+    color: rgba(113, 113, 113, 1);
+    font-size: 11px;
+    line-height: 17px;
+    padding-left: 85px;
+}
+.hero5{
+    background: rgba(76, 175, 79, 1);
+    border-radius: 3px;
+    
+}
+.hero6{
+padding-left: 85px;
+}
+.contentbtn{
+    background: rgba(76, 175, 79, 1);
+}
+.footeR{
+    background: rgba(38, 50, 56,1);
+}
+/* @media screen  and (min-width:560px)  and (max-width:768px) {
    
     .card-title{
     font-weight: bold;
@@ -68,15 +113,14 @@
 .card-text{
     text-align: center;
     font-size: 14px;
-}
-} 
+} */ 
 @media screen and (max-width:576px){
     .heading{
-        font-size: 35px;
+        font-size: 30px;
     }
-    .imgg{
+    /* .imgg{
         justify-content: center;
         align-items: center;
         justify-self: center;
-    }
+    } */
 }
